@@ -1,0 +1,33 @@
+body{
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#top-section{
+    background-color: #1D5B79;
+    height: 100vh;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+}
+#skills-section{
+    background-color:  #f9f9f9 ;
+}
+#footer-section{
+    background-color: #1D5B79;
+}
+.text-footer{
+    color: #F3AA60;
+}
+.icon-link{
+    display: inline-flex;
+    gap: 0.375rem;
+    align-items: center;
+    -webkit-text-decoration-color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,0.5));
+    text-decoration-color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,0.5));
+    text-underline-offset: 0.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
